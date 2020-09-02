@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Covid-19 Update</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <header>
+        <app-bar></app-bar>
+    </header>
+
+    <main>
+        <section>
+            <div id="listData" class="container-new">
+                <blockquote>
+                    <h5 id="foods">Data</h5>
+                </blockquote>
+                <div class="row">
+                    <div class="col m4 s12">
+                        <div id="globalData" class="card-panel">
+
+                        </div>
+                    </div>
+                    <div class="col m4 s12">
+                        <div id="indonesiaData" class="card-panel">
+                        </div>
+                    </div>
+                    <div class="col m4 s12">
+                        <div id="sulselData" class="card-panel">
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section>
+            <div class="container-new">
+                <blockquote>
+                    <h5>Indonesian Data</h5>
+                </blockquote>
+                <div class="card-panel">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>No.</th>
+                                <th>Area Name</th>
+                                <th class="center-align">Confirmed</th>
+                                <th class="center-align">Recovered</th>
+                                <th class="center-align">Deaths</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="allProvinsies">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <div class="container-new">
+            <div id="imageCovid">
+
+            </div>
+        </div>
+    </main>
+
+    <foot-bar></foot-bar>
+
+    <script src="./app.js" type="module"></script>
+</body>
+
+</html>
