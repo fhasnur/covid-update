@@ -1,2 +1,2 @@
-# covid-update
+# Covid Update
 Covid-19 Update Data
